@@ -4,10 +4,15 @@ SITEURL = ''
 
 PATH = 'content'
 OUTPUT_PATH = 'docs'
-THEME = 'themes/bootstrap2'
+THEME = 'themes/backdrop'
 TIMEZONE = 'US/Eastern'
 
 DEFAULT_LANG = 'en'
+
+# for backdrop theme
+# PAGINATED_DIRECT_TEMPLATES = ('categories', 'archives')
+PAGINATED_TEMPLATES = {'category': None, 'author': None, 'archives': None}
+PROFILE_IMAGE = "./content/images/Snapchat-505899047.jpg"
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -24,7 +29,7 @@ LINKS = (('Pelican', 'https://getpelican.com/'),
 
 # Social widget
 SOCIAL = (('You can add links in your config file', '#'),
-          ('Twitter', 'twitter.com/ethankyzivat'),)
+          ('Twitter', 'https://www.twitter.com/ethankyzivat'),)
 
 DEFAULT_PAGINATION = 10
 
