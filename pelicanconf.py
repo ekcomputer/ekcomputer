@@ -3,7 +3,8 @@ SITENAME = 'Ethan D. Kyzivat, PhD candidate'
 SITEURL = ''
 
 PATH = 'content'
-
+OUTPUT_PATH = 'docs'
+THEME = 'themes/bootstrap2'
 TIMEZONE = 'US/Eastern'
 
 DEFAULT_LANG = 'en'
@@ -23,9 +24,9 @@ LINKS = (('Pelican', 'https://getpelican.com/'),
 
 # Social widget
 SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+          ('Twitter', 'twitter.com/ethankyzivat'),)
 
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+RELATIVE_URLS = True
