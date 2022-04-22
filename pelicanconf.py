@@ -14,6 +14,13 @@ DEFAULT_LANG = 'en'
 PAGINATED_TEMPLATES = {'category': None, 'author': None, 'archives': None}
 PROFILE_IMAGE = "./content/images/Snapchat-505899047.jpg"
 
+# auto-naming articles or pages
+ARTICLE_URL = 'posts/{date:%Y}/{date:%b}/{date:%d}/{slug}/'
+ARTICLE_SAVE_AS = 'posts/{date:%Y}/{date:%b}/{date:%d}/{slug}/index.html'
+PAGE_URL = 'pages/{slug}/'
+PAGE_SAVE_AS = 'pages/{slug}/index.html'
+DISPLAY_PAGES_ON_MENU = True
+
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
