@@ -3,6 +3,8 @@ SITENAME = 'Ethan D. Kyzivat, PhD candidate'
 SITEURL = ''
 
 PATH = 'content'
+ARTICLE_PATHS = ['articles']
+PAGES_PATHS = ['pages']
 OUTPUT_PATH = 'docs'
 THEME = 'themes/backdrop'
 TIMEZONE = 'US/Eastern'
