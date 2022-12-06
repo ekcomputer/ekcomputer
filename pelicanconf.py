@@ -17,7 +17,9 @@ DELETE_OUTPUT_DIRECTORY = True # should be False by default
 # for backdrop theme
 # PAGINATED_DIRECT_TEMPLATES = ('categories', 'archives')
 PAGINATED_TEMPLATES = {'category': None, 'author': None, 'archives': None}
-PROFILE_IMAGE = "{attach}/content/images/Snapchat-505899047.jpg"
+PAGINATED_DIRECT_TEMPLATES = ('categories', 'archives')
+PROFILE_IMAGE = "images/Snapchat-505899047.jpg"
+BACKDROP_IMAGE = 'images/DJI_0182-crop1.png'
 
 # auto-naming articles or pages
 ARTICLE_URL = 'posts/{date:%Y}/{date:%b}/{date:%d}/{slug}/'
